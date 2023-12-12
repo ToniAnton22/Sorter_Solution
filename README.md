@@ -25,7 +25,7 @@ Takes 1 parameter, an array of strings.
 
 I then call the "sortList" function, append the array of names to the list, and then return the list sorted. This step might be a bit redundant, as I believe I can achieve the same thing outside of the function without having to reinvent the wheel.
 
-# functio nameSum
+
 Takes 2 parameters: a string "name" and a Dictionary containing a character as key and an integer as value.
 
 ![image](https://github.com/ToniAnton22/Sorter_Solution/assets/72076515/73cf1c41-47cb-4b84-af5c-4743242df040)
@@ -33,12 +33,17 @@ Takes 2 parameters: a string "name" and a Dictionary containing a character as k
 
 The computer will then go through the sorted list and send the "name" and "alphabetNumbers" dictionary to get the sum of the characters of each name, as well as take the sum and the name's position within the list to multiply them and complete our task.
 
+# functio nameSum
+
+![image](https://github.com/ToniAnton22/Sorter_Solution/assets/72076515/eed35835-d92e-4c98-92f0-4124d2ad3b66)
+
 The NameSum function takes the name and the "alphabetNumbers" dictionary, initializes an integer to store our sum, and then starts a loop the size of "name". I check for ' " ' this character as the double quotation mark seems to be stored in my sorted list, and can cause errors as they are not placed within the dictionary. This might be the cause of the string being stored as ' "name" ' or when reading the file, some of these quotation marks went wrong, however, I had to add this check for the integrity of the loop. If no character is '"' then it will add the value of the letter together until the loop is done and return our sum
 
 # function getNameAndPostionSum
 This takes 2 parameters: The position of the name within the sorted list, and the sum of characters.
 
-![image](https://github.com/ToniAnton22/Sorter_Solution/assets/72076515/eed35835-d92e-4c98-92f0-4124d2ad3b66)
+![image](https://github.com/ToniAnton22/Sorter_Solution/assets/72076515/21715571-bf4f-4e8d-84fe-4938ec0392ad)
+
 
 The function takes the position and adds "1" as our index starts at zero, but realistically, they do occupy 1 position, then multiply the result of the sum with the sum of characters, and return the product.
 
