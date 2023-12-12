@@ -1,10 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Collections.Immutable;
-
-string directory = Directory.GetCurrentDirectory();
 Dictionary<char, int> alphabetNumbers = new Dictionary<char, int>();
-Dictionary<string, int> sumOfNames = new Dictionary<string, int>();
 List<string> sortedList;
 string lettersInAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
