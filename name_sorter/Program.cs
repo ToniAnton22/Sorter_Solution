@@ -72,6 +72,6 @@ static List<string> sortList(string[] names)
 
 static int getNameAndPositionSum(int position, int sumChars)
 {
-    var sum = position + sumChars;
-    return sum + 1;
+    var sum = (position + 1) * sumChars;
+    return sum;
 }
